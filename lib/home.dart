@@ -42,8 +42,7 @@ class _HomeState extends State<Home> {
                 WebView(
                   key: _key,
                   javascriptMode: JavascriptMode.unrestricted,
-                  initialUrl:
-                      'https://www.google.com/', //'http://54.244.198.217/DemoEzzar/',
+                  initialUrl: 'http://54.244.198.217/DemoEzzar/',
                   gestureNavigationEnabled: true,
                   zoomEnabled: true,
                   onWebViewCreated: (WebViewController controller) {
